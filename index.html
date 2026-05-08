@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#020617">
+
+<title>Irfan Freelancer IT Services</title>
+
+<!-- TAILWIND -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#020617;
+color:white;
+overflow-x:hidden;
+}
+
+/* BACKGROUND */
+.bg-grid{
+background-image:
+linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+background-size:60px 60px;
+}
+
+/* GLASS */
+.glass{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.08);
+}
+
+/* GLOW */
+.glow{
+box-shadow:0 0 35px rgba(34,211,238,.35);
+}
+
+/* CUSTOM SCROLL */
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#22d3ee;
+border-radius:20px;
+}
+
+/* HERO IMAGE */
+.hero-img{
+animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+}
+
+/* SKILLS BAR */
+.skill-bar{
+height:10px;
+border-radius:20px;
+overflow:hidden;
+background:#111827;
+}
+
+.skill-fill{
+height:100%;
+background:linear-gradient(to right,#06b6d4,#3b82f6);
+border-radius:20px;
+}
+
+/* LOADER */
+#loader{
+position:fixed;
+inset:0;
+background:#020617;
+z-index:99999;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+transition:1s;
+}
+
+.loader-logo{
+width:140px;
+height:140px;
+border-radius:30px;
+object-fit:cover;
+border:4px solid #22d3ee;
+box-shadow:0 0 40px rgba(34,211,238,.5);
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.05);}
+100%{transform:scale(1);}
+}
+
+.loader-text{
+font-size:38px;
+font-weight:900;
+margin-top:20px;
+background:linear-gradient(to right,#22d3ee,#3b82f6);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.bar{
+width:260px;
+height:5px;
+background:#111827;
+border-radius:20px;
+margin-top:25px;
+overflow:hidden;
+}
+
+.bar span{
+display:block;
+height:100%;
+width:0%;
+background:linear-gradient(to right,#22d3ee,#3b82f6);
+animation:load 2.5s forwards;
+}
+
+@keyframes load{
+100%{
+width:100%;
+}
+}
+
+</style>
+
+</head>
+
+<body class="bg-grid">
+
+<!-- LOADER -->
+
+<div id="loader">
+
+<img
+src="https://iili.io/BtWvl1a.png"
+class="loader-logo">
+
+<div class="loader-text">
+Irfan Freelancer
+</div>
+
+<div class="text-gray-400 tracking-[4px] mt-2 text-sm">
+IT SERVICES
+</div>
+
+<div class="bar">
+<span></span>
+</div>
+
+</div>
+
+<!-- NAVBAR -->
+
+<nav class="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-xl border-b border-white/10">
+
+<div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+<div class="flex items-center gap-4">
+
+<img
+src="https://iili.io/BtWvl1a.png"
+class="w-14 h-14 rounded-2xl object-cover border border-cyan-400 glow">
+
+<div>
+
+<h1 class="font-black text-xl">
+Irfan Freelancer IT Services
+</h1>
+
+<p class="text-xs text-gray-400">
+Engineering Digital Excellence
+</p>
+
+</div>
+
+</div>
+
+<div class="hidden md:flex gap-8 text-sm">
+
+<a href="#home" class="hover:text-cyan-400 transition">Home</a>
+<a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+<a href="#portfolio" class="hover:text-cyan-400 transition">Portfolio</a>
+<a href="#services" class="hover:text-cyan-400 transition">Services</a>
+<a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+
+</div>
+
+<a href="https://wa.me/923021469602"
+class="hidden md:block px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-bold glow">
+
+Hire Me
+
+</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home" class="relative min-h-screen flex items-center overflow-hidden pt-32">
+
+<!-- BANNER -->
+
+<img
+src="https://iili.io/BtWv874.jpg"
+class="absolute inset-0 w-full h-full object-cover opacity-20">
+
+<div class="absolute inset-0 bg-[#020617dd]"></div>
+
+<div class="max-w-7xl mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-16 items-center">
+
+<!-- LEFT -->
+
+<div>
+
+<div class="inline-flex items-center gap-2 px-5 py-2 rounded-full glass text-cyan-400 text-sm mb-8">
+
+<div class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></div>
+
+Available Worldwide
+
+</div>
+
+<h1 class="text-5xl md:text-7xl font-black leading-tight mb-6">
+
+IRFAN FREELANCER
+
+<span class="block bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+
+IT SERVICES
+
+</span>
+
+</h1>
+
+<p class="text-gray-300 text-lg leading-relaxed max-w-2xl">
+
+Professional Web Development, Mobile Apps, Graphics Designing,
+AI Automation, Cloud Solutions & Cyber Security services for businesses worldwide.
+
+</p>
+
+<!-- SKILLS TAGS -->
+
+<div class="flex flex-wrap gap-3 mt-8">
+
+<div class="glass px-4 py-2 rounded-xl text-cyan-400 text-sm">💻 Web Developer</div>
+
+<div class="glass px-4 py-2 rounded-xl text-cyan-400 text-sm">📱 App Developer</div>
+
+<div class="glass px-4 py-2 rounded-xl text-cyan-400 text-sm">🎨 Graphics Designer</div>
+
+<div class="glass px-4 py-2 rounded-xl text-cyan-400 text-sm">🤖 AI Automation</div>
+
+<div class="glass px-4 py-2 rounded-xl text-cyan-400 text-sm">🔒 Cyber Security</div>
+
+<div class="glass px-4 py-2 rounded-xl text-cyan-400 text-sm">☁️ Cloud Solutions</div>
+
+</div>
+
+<div class="flex gap-4 mt-10">
+
+<a href="#contact"
+class="px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-bold glow hover:scale-105 transition">
+
+Start Project
+
+</a>
+
+<a href="#portfolio"
+class="px-8 py-4 rounded-xl glass hover:border-cyan-400 transition">
+
+View Work
+
+</a>
+
+</div>
+
+<!-- STATS -->
+
+<div class="grid grid-cols-3 gap-6 mt-16">
+
+<div class="glass p-5 rounded-2xl text-center">
+<h2 class="text-4xl font-black text-cyan-400">120+</h2>
+<p class="text-gray-400 mt-2">Projects</p>
+</div>
+
+<div class="glass p-5 rounded-2xl text-center">
+<h2 class="text-4xl font-black text-cyan-400">40+</h2>
+<p class="text-gray-400 mt-2">Countries</p>
+</div>
+
+<div class="glass p-5 rounded-2xl text-center">
+<h2 class="text-4xl font-black text-cyan-400">98%</h2>
+<p class="text-gray-400 mt-2">Satisfaction</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="relative flex justify-center">
+
+<div class="absolute w-[450px] h-[450px] rounded-full bg-cyan-500 opacity-20 blur-[120px]"></div>
+
+<img
+src="https://iili.io/BtWvl1a.png"
+class="hero-img relative z-10 w-[420px] rounded-full border-[6px] border-cyan-400 glow">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="py-28">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<p class="uppercase tracking-[4px] text-cyan-400 text-sm">
+Skills & Technologies
+</p>
+
+<h2 class="text-5xl font-black mt-3">
+Coding Expertise
+</h2>
+
+</div>
+
+<div class="grid md:grid-cols-2 gap-10">
+
+<!-- LEFT -->
+
+<div class="glass p-8 rounded-3xl">
+
+<h3 class="text-2xl font-bold mb-8">
+Frontend Development
+</h3>
+
+<div class="space-y-6">
+
+<div>
+<div class="flex justify-between mb-2">
+<span>HTML / CSS</span>
+<span>98%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[98%]"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between mb-2">
+<span>JavaScript</span>
+<span>95%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[95%]"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between mb-2">
+<span>React / Next.js</span>
+<span>92%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[92%]"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between mb-2">
+<span>Tailwind CSS</span>
+<span>97%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[97%]"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="glass p-8 rounded-3xl">
+
+<h3 class="text-2xl font-bold mb-8">
+Backend & Mobile
+</h3>
+
+<div class="space-y-6">
+
+<div>
+<div class="flex justify-between mb-2">
+<span>Node.js</span>
+<span>90%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[90%]"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between mb-2">
+<span>Flutter</span>
+<span>88%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[88%]"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between mb-2">
+<span>Firebase</span>
+<span>93%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[93%]"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between mb-2">
+<span>Cloud & DevOps</span>
+<span>85%</span>
+</div>
+<div class="skill-bar">
+<div class="skill-fill w-[85%]"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio" class="py-28 bg-[#08111f]">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-20">
+
+<p class="uppercase tracking-[4px] text-cyan-400 text-sm">
+Portfolio
+</p>
+
+<h2 class="text-5xl font-black mt-3">
+Featured Work
+</h2>
+
+</div>
+
+<div class="grid lg:grid-cols-3 gap-8">
+
+<!-- CARD -->
+
+<div class="glass rounded-3xl overflow-hidden hover:-translate-y-2 transition">
+
+<img
+src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+class="w-full h-64 object-cover">
+
+<div class="p-8">
+
+<p class="text-cyan-400 text-sm mb-2">
+SaaS 2026
+</p>
+
+<h3 class="text-3xl font-bold mb-4">
+Modern Dashboard
+</h3>
+
+<p class="text-gray-400">
+Enterprise analytics dashboard with premium UI & advanced reporting systems.
+</p>
+
+<a href="#"
+class="inline-block mt-6 text-cyan-400 font-semibold">
+
+View Project →
+
+</a>
+
+</div>
+
+</div>
+
+<!-- CARD -->
+
+<div class="glass rounded-3xl overflow-hidden hover:-translate-y-2 transition">
+
+<img
+src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+class="w-full h-64 object-cover">
+
+<div class="p-8">
+
+<p class="text-cyan-400 text-sm mb-2">
+Luxury Branding
+</p>
+
+<h3 class="text-3xl font-bold mb-4">
+Agency Portfolio
+</h3>
+
+<p class="text-gray-400">
+Premium modern portfolio experience with futuristic design & animations.
+</p>
+
+<a href="#"
+class="inline-block mt-6 text-cyan-400 font-semibold">
+
+View Project →
+
+</a>
+
+</div>
+
+</div>
+
+<!-- CARD -->
+
+<div class="glass rounded-3xl overflow-hidden hover:-translate-y-2 transition">
+
+<img
+src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+class="w-full h-64 object-cover">
+
+<div class="p-8">
+
+<p class="text-cyan-400 text-sm mb-2">
+Enterprise System
+</p>
+
+<h3 class="text-3xl font-bold mb-4">
+Cloud Infrastructure
+</h3>
+
+<p class="text-gray-400">
+Secure scalable cloud solutions for modern businesses & startups.
+</p>
+
+<a href="#"
+class="inline-block mt-6 text-cyan-400 font-semibold">
+
+View Project →
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="py-28">
+
+<div class="max-w-4xl mx-auto px-6">
+
+<div class="glass rounded-3xl p-10">
+
+<div class="text-center mb-12">
+
+<h2 class="text-5xl font-black">
+Let's Build Something Amazing
+</h2>
+
+<p class="text-gray-400 mt-5">
+Ready to start your next digital project?
+</p>
+
+</div>
+
+<div class="grid gap-5">
+
+<input type="text"
+placeholder="Full Name"
+class="w-full px-5 py-4 rounded-xl bg-[#0f172a] border border-white/10 outline-none focus:border-cyan-400">
+
+<input type="email"
+placeholder="Email Address"
+class="w-full px-5 py-4 rounded-xl bg-[#0f172a] border border-white/10 outline-none focus:border-cyan-400">
+
+<textarea rows="6"
+placeholder="Describe your project..."
+class="w-full px-5 py-4 rounded-xl bg-[#0f172a] border border-white/10 outline-none focus:border-cyan-400"></textarea>
+
+<button
+class="py-4 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-bold text-lg glow hover:scale-[1.02] transition">
+
+🚀 Send Message
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="border-t border-white/10 py-8 text-center text-gray-500">
+
+© 2026 Irfan Freelancer IT Services — All Rights Reserved
+
+</footer>
+
+<!-- WHATSAPP -->
+
+<a
+href="https://wa.me/923021469602"
+class="fixed bottom-6 right-6 w-16 h-16 rounded-full bg-green-500 flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition z-50">
+
+💬
+
+</a>
+
+<script>
+
+/* LOADER */
+
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+document.getElementById("loader").style.opacity="0";
+document.getElementById("loader").style.visibility="hidden";
+
+},2500);
+
+});
+
+</script>
+
+</body>
+</html>
