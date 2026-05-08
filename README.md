@@ -1,14 +1,14 @@
 <p align="center">
 
-<img src="https://iili.io/BtWv874.jpg" width="100%" />
+<img src="https://iili.io/BtWv874.jpg"/>
 
 </p>
 
 <h1 align="center">
 
-<img src="https://iili.io/BtWvl1a.png" width="140"/>
+<img src="https://iili.io/BtWvl1a.png" width="180"/>
 
-<br><br>
+<br>
 
 IRFAN FREELANCER IT SERVICES
 
@@ -16,43 +16,50 @@ IRFAN FREELANCER IT SERVICES
 
 <h3 align="center">
 
-🚀 Premium Web Developer • Mobile Apps • UI/UX • Cloud Solutions
+🚀 Premium Full Stack Developer • Mobile Apps • Cloud • AI
 
 </h3>
 
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=22D3EE&center=true&vCenter=true&width=900&lines=Premium+Web+Developer;Mobile+App+Engineer;Graphics+Designer;Cloud+%26+DevOps+Expert;Cyber+Security+Solutions;AI+Automation+Expert" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=1000&lines=Premium+Web+Developer;Flutter+%26+React+Native+Expert;Cloud+%26+DevOps+Engineer;Cyber+Security+Solutions;AI+Automation+Expert;Graphics+Designer;Building+Digital+Experiences"/>
 
 </p>
 
 ---
 
-# 🌍 About Me
+# ⚡ ABOUT ME
 
-<img align="right" width="300" src="https://iili.io/BtWvl1a.png"/>
+<img align="right" width="320" src="https://iili.io/BtWvl1a.png"/>
 
-💻 Full Stack Web Developer  
-📱 Mobile App Developer  
-🎨 Professional Graphics Designer  
-☁️ Cloud & DevOps Expert  
-🔒 Cyber Security Enthusiast  
-🤖 AI Automation Expert  
-🚀 Building Premium Digital Experiences  
+```yaml
+Name: Irfan
+Company: IRFAN FREELANCER IT SERVICES
+Role: Full Stack Developer
+Location: Pakistan 🇵🇰
+Experience: Premium International Projects
+Focus:
+  - Web Applications
+  - Mobile Apps
+  - Cloud Systems
+  - AI Automation
+  - UI/UX Design
+  - Cyber Security
+```
 
 ---
 
-# ⚡ Tech Stack
+# 🚀 TECH ARSENAL
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,flutter,firebase,mongodb,aws,docker,figma,python,tailwind"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,flutter,firebase,mongodb,aws,docker,figma,python,tailwind,ts,github,vscode"/>
 
 </p>
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 LIVE GITHUB STATS
 
 <p align="center">
 
@@ -64,7 +71,7 @@ IRFAN FREELANCER IT SERVICES
 
 ---
 
-# 🔥 Contribution Streak
+# 🔥 CONTRIBUTION STREAK
 
 <p align="center">
 
@@ -74,60 +81,85 @@ IRFAN FREELANCER IT SERVICES
 
 ---
 
-# 🏆 GitHub Trophies
+# 🐍 CONTRIBUTION SNAKE
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=irfanfreelanceritservices&theme=tokyonight&no-frame=true&row=1&column=6"/>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 
 </p>
 
 ---
 
-# 📈 Contribution Graph
+# 🏆 ACHIEVEMENTS
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=irfanfreelanceritservices&theme=tokyo-night"/>
+<img src="https://github-profile-trophy.vercel.app/?username=irfanfreelanceritservices&theme=tokyonight&no-frame=true&row=1&column=7"/>
 
 </p>
 
 ---
 
-# 🌐 Connect With Me
+# 🌌 CYBER SECURITY MODE
+
+<p align="center">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2R4eHhoYmFyd3JtN2R4M3h4aTRvbnQ4Y3B4bG9sOG9uZWd2N3Q4YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif" width="100%"/>
+
+</p>
+
+---
+
+# 💼 FEATURED PROJECTS
+
+| Project | Tech | Status |
+|---|---|---|
+| Premium Portfolio | HTML • Tailwind | ✅ Live |
+| Real Estate App | Flutter • Firebase | 🚀 Active |
+| AI Automation Tools | Python • OpenAI | ⚡ Running |
+| Business Website | React • Next.js | 🌍 Live |
+
+---
+
+# 📈 PROFILE VISITORS
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=irfanfreelanceritservices&label=PROFILE+VIEWS&color=22d3ee&style=for-the-badge"/>
+
+</p>
+
+---
+
+# 🌐 CONNECT WITH ME
 
 <p align="center">
 
 <a href="https://wa.me/923021469602">
+
 <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+
 </a>
 
 <a href="mailto:irfanwahgapk@gmail.com">
+
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+
 </a>
 
 <a href="https://irfanfreelanceritservices.github.io/">
+
 <img src="https://img.shields.io/badge/Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+
 </a>
 
 </p>
 
 ---
 
-# 👀 Visitors
+<h3 align="center">
 
-<p align="center">
+⚡ WE BUILD SOLUTIONS THAT DRIVE GROWTH ⚡
 
-<img src="https://komarev.com/ghpvc/?username=irfanfreelanceritservices&label=Profile+Views&color=22d3ee&style=for-the-badge"/>
-
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/irfanfreelanceritservices/irfanfreelanceritservices/output/snake.svg" />
-
-</p>
+</h3>
